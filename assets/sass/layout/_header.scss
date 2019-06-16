@@ -1,0 +1,29 @@
+.header-image {
+    margin-top: 80%;
+}
+
+.menulist {
+    padding: 0;
+    margin:0;
+    list-style: none;
+}
+
+.menulist_item {
+    padding: 11px;
+}
+
+.menulist_link {
+    color: $azul;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-family: $font-stack;
+    font-weight: $bold;
+}
+
+.menulist_link_active {
+    color: $verde-link;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-family: $font-stack;
+    font-weight: $bold;
+}
