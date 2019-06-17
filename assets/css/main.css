@@ -9813,6 +9813,28 @@ hr {
   font-weight: 700;
 }
 
+.logo {
+  width: 70px;
+}
+
+@media screen and (min-width: 500px) and (max-width: 800px) {
+  .sidebar {
+    position: relative;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+    background-color: none !important;
+  }
+
+  .header-image {
+    visibility: hidden;
+  }
+
+  .menulist {
+    visibility: hidden;
+  }
+}
 .form-control {
   color: #2D3047;
   border: 1px solid;
