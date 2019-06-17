@@ -32,6 +32,12 @@
     width: 70px;
 }
 
+.bg-dark {
+    background-color: #7DEA9C !important;
+}
+
+
+
 @media screen and (min-width: 500px) and (max-width: 800px) { 
 
 
@@ -52,10 +58,5 @@
     .menulist {
         visibility: hidden;
     }
-
-
-
-
-
 
 }
